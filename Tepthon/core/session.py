@@ -7,7 +7,7 @@ from .bothseesion import bothseesion
 from .client import ZedUserBotClient
 from .logger import logging
 
-LOGS = logging.getLogger("تـبـثون")
+LOGS = logging.getLogger("زدثــون")
 __version__ = "2.10.6"
 
 loop = None
@@ -35,7 +35,7 @@ except Exception as e:
     sys.exit()
 
 zedub.tgbot = tgbot = ZedUserBotClient(
-    session="TepthonSessionBot",
+    session="ZedTgbot",
     api_id=Config.APP_ID,
     api_hash=Config.API_HASH,
     loop=loop,
